@@ -544,7 +544,23 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.bg-slate-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(100 116 139 / var(--tw-bg-opacity));
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.bg-dots {
+  background-color: black;
+  background-image:
+    radial-gradient(rgba(255, 255, 255, 0.836) 5%, transparent 5%),
+    radial-gradient(rgba(255, 255, 255, 0.815) 5%, transparent 5%);
+  background-position: 0 0, 25px 25px;
+  background-size: 50px 50px;
+}
+
+  
