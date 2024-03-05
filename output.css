@@ -544,9 +544,95 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
+.ml-12 {
+  margin-left: 3rem;
+}
+
+.mr-5 {
+  margin-right: 1.25rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.h-14 {
+  height: 3.5rem;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.gap-8 {
+  gap: 2rem;
+}
+
+.self-center {
+  align-self: center;
+}
+
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+
+.rounded-sm {
+  border-radius: 0.125rem;
+}
+
+.rounded-b-lg {
+  border-bottom-right-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+}
+
+.rounded-b-md {
+  border-bottom-right-radius: 0.375rem;
+  border-bottom-left-radius: 0.375rem;
+}
+
+.rounded-s {
+  border-start-start-radius: 0.25rem;
+  border-end-start-radius: 0.25rem;
+}
+
+.border-b-2 {
+  border-bottom-width: 2px;
+}
+
+.border-b-4 {
+  border-bottom-width: 4px;
+}
+
+.border-transparent {
+  border-color: transparent;
+}
+
+.bg-mycolor {
+  --tw-bg-opacity: 1;
+  background-color: rgb(36 179 166 / var(--tw-bg-opacity));
+}
+
+.font-serif {
+  font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.text-red-600 {
+  --tw-text-opacity: 1;
+  color: rgb(220 38 38 / var(--tw-text-opacity));
 }
 
 .text-white {
@@ -555,12 +641,23 @@ video {
 }
 
 .bg-dots {
-  background-color: black;
+  background-color: rgb(47, 159, 148);
   background-image:
-    radial-gradient(rgba(255, 255, 255, 0.836) 5%, transparent 5%),
-    radial-gradient(rgba(255, 255, 255, 0.815) 5%, transparent 5%);
+      radial-gradient(rgb(17, 17, 17) 5%, transparent 5%),
+      radial-gradient(rgb(27, 25, 25) 5%, transparent 5%);
   background-position: 0 0, 25px 25px;
   background-size: 50px 50px;
 }
 
-  
+.bg-image {
+  background-image: url('/Portfolio/image/dark2.png');
+}
+
+.hover\:border-b-4:hover {
+  border-bottom-width: 4px;
+}
+
+.hover\:border-red-600:hover {
+  --tw-border-opacity: 1;
+  border-color: rgb(220 38 38 / var(--tw-border-opacity));
+}

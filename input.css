@@ -3,12 +3,14 @@
 @tailwind utilities;
 
 .bg-dots {
-  background-color: black;
-  background-image:
-    radial-gradient(rgba(255, 255, 255, 0.836) 5%, transparent 5%),
-    radial-gradient(rgba(255, 255, 255, 0.815) 5%, transparent 5%);
-  background-position: 0 0, 25px 25px;
-  background-size: 50px 50px;
-}
+    background-color: rgb(47, 159, 148);
+    background-image:
+      radial-gradient(rgb(17, 17, 17) 5%, transparent 5%),
+      radial-gradient(rgb(27, 25, 25) 5%, transparent 5%);
+    background-position: 0 0, 25px 25px;
+    background-size: 50px 50px;
+  }
 
-  
+  .bg-image {
+    background-image: url('/Portfolio/image/dark2.png');
+  }
