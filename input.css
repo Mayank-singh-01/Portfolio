@@ -14,3 +14,7 @@
   .bg-image {
     background-image: url('/Portfolio/image/dark2.png');
   }
+
+  .mynev { 
+    @apply hover:border-b-4 hover:text-gray-600 border-b-4 border-transparent hover:border-mypink hidden md:block
+  }

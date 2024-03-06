@@ -6,48 +6,67 @@
     <link rel="stylesheet" href="../output.css">
     <title>Portfolio</title>
 </head>
-<body class="bg-dots text-gray-100 " >
+<body class="bg-dots text-gray-100 ">
     
 
-                          <!-- navigation bar  -->
+                          <!-- navigation bar  ********************************* -->
 
-    <nav id="navigation" >
-        <div class=" h-14 bg-mycolor flex justify-between shadow-sm " >
+    <nav id="navigation"  >
+        <div class=" h-[52px] w-full  bg-mycolor fixed z-50 flex justify-between shadow-sm " >
+
 
                          <!-- name on navigation bar -->
 
-            <div id="navName" class=" self-center ml-12 " > 
-            <span class="text-4xl font-bold font-serif text-red-600 " >M</span><span class="font-serif font-bold text-xl">ayank</span>
+            <div id="navName" class=" sm:text-sm self-center ml-12 " > 
+            <span class="text-4xl font-bold font-serif text-mypink " >M</span><span class="font-serif font-bold text-xl">ayank</span>
             </div>
+            
+                          <!-- home and all -->
 
-                          <!-- about and all -->
-
-            <div id="mainNav" class= " mr-6 flex gap-8 font-bold self-center "  >
-                <a class="hover:border-b-4 hover:text-gray-600 border-b-4 border-transparent hover:border-red-600" href="#">Home</a>
-                <a class="hover:border-b-4 hover:text-gray-600 border-b-4 border-transparent hover:border-red-600" href="#">About</a>
-                <a class="hover:border-b-4 hover:text-gray-600 border-b-4 border-transparent hover:border-red-600" href="#">Skill</a>
-                <a class="hover:border-b-4 border-b-4 hover:text-gray-600 border-transparent hover:border-red-600" href="#">Project</a>
-                <a class="hover:border-b-4 border-b-4 hover:text-gray-600 border-transparent hover:border-red-600" href="#">Contect</a>
+            <div id="menu" class= " mr-7 flex gap-8 font-bold self-center "  >
+                <a class="mynev" href="#Home">Home</a>
+                <a class="mynev" href="#">About</a>
+                <a class="mynev" href="#">Skill</a>
+                <a class="mynev" href="#">Project</a>
+                <a class="mynev" href="#">Contect</a>
             </div>
+                       <!-- icon of menu  -->
+
+             <div class="md:hidden flex items-center pr-8 " id="icon" >
+                 <svg  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                </svg>
+            </div>            
+
         </div>
     </nav>
 
-                          <!-- image and hello   -->
+        <!-- *********************image and hello ******************** -->
 
-    <div class="grid grid-cols-2" >
+    <div id="Home" class=" flex flex-row " >
 
          <!-- full image  -->
-       <div>  <img  src="profile2.png" alt="My Image" class=" mt-8 rounded-[150px] float-start h-[550px]  "> </div>
+       <div id="image" >  <img  src="profile2.png" alt="My Image" class=" mt-20  ml-10  rounded-[150px] float-start h-[550px]  "> </div>
 
         <!-- hii hellow  -->
-        <div class="  flex flex-col justify-center " >
-            <div class="font-serif font-bold text-5xl  " >Hi, I'm</div>
-            <div class="font-serif font-bold text-6xl text-red-600  "  >Mayank singh</div>
+        <div id="myname" class="  flex flex-col justify-center ml-36  " >
+            <div class="font-serif font-bold text-5xl text-gray-100  " >Hi, I'm</div>
+            <div class="font-serif font-bold text-6xl  text-mypink  "  >Mayank singh</div>
+            <div class="text-2xl font-serif text-gray-200 " >Frontend Developer</div>
         </div>
 
-    </div>                      
+        <hr class="border-separate" >
 
+    </div>  
+    <div id="About" >
+        <div class="font-serif font-bold text-4xl uppercase text-mypink">About me</div>
+        <div>
+            <div>image</div>
+            <div>writen words</div>
+        </div>
+    </div>
 
-
+    
+<script src="index.js" ></script>
 </body>
 </html>
