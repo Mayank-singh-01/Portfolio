@@ -16,7 +16,7 @@
   }
 
   .mynev {
-    @apply border-b-4 border-transparent hover:border-mypink hover:text-gray-600 transition ease-in-out duration-100;
+    @apply border-b-4 border-transparent hover:border-mypink hover:text-gray-500 transition ease-in-out duration-100;
   }
  
 
