@@ -18,3 +18,7 @@
   .mynev { 
     @apply hover:border-b-4 hover:text-gray-600 border-b-4 border-transparent hover:border-mypink hidden md:block
   }
+
+  .text-shadow {
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+  }
