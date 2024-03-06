@@ -19,6 +19,7 @@
     @apply hover:border-b-4 hover:text-gray-600 border-b-4 border-transparent hover:border-mypink hidden md:block
   }
 
-  .text-shadow {
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+  .img-class {
+    @apply h-40 rounded-xl text-center font-bold bg-mycolor 
   }
+

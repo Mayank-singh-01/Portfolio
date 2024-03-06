@@ -12,7 +12,7 @@
                           <!-- navigation bar  ********************************* -->
 
     <nav id="navigation"  >
-        <div class=" h-[52px] w-full  bg-mycolor fixed z-50 flex justify-between shadow-sm " >
+        <div class=" h-14 w-full  bg-mycolor fixed z-50 flex justify-between shadow-sm " >
 
 
                          <!-- name on navigation bar -->
@@ -27,7 +27,7 @@
                 <a class="mynev" href="#Home">Home</a>
                 <a class="mynev" href="#About">About</a>
                 <a class="mynev" href="#Skill">Skill</a>
-                <a class="mynev" href="#">Project</a>
+                <a class="mynev" href="#Project">Project</a>
                 <a class="mynev" href="#">Contect</a>
             </div>
                        <!-- icon of menu  -->
@@ -52,18 +52,20 @@
         <div id="myname" class="  flex flex-col justify-center mt-20 ml-40 " >
             <div class="font-serif font-bold text-5xl text-gray-100  " >Hi, I'm</div>
             <div class="font-serif font-bold text-6xl  text-mypink  "  >Mayank singh</div>
-            <div class="text-2xl font-serif text-gray-200 " >Frontend Developer</div>
+            <div class="text-2xl font-serif text-gray-200 " >Frontend Developer |</div>
         </div>
-    </div>  
-     <hr class="border-b mt-6 shadow-inner mb-7 border-mycolor" > 
+    </div> 
+      
+    
 
     <!-- ******************about section*************** -->
 
-    <div id="About" class="flex  flex-col">
+    <div id="About" class=" flex  flex-col"> 
+        <hr class="border-b my-12 shadow-inner  border-mycolor">
         <div class="font-serif font-bold text-5xl text-center text-shadow-4xl text-mypink">About Me</div>
         <div class=" flex flex-row justify-around " >
                       <!-- about my self -->
-            <div class="flex flex-col justify-center ml-12 " >
+            <div class="flex flex-col font-serif text-lg text-gray-200 gap-1 justify-center ml-12 " >
                 <p>Hello! I'm Mayank, a Bachelor of Computer</p>
                 <p>Applications (B.C.A) student with a passion for</p>
                 <p>web development. I am enthusiastic about leveraging</p>
@@ -74,21 +76,32 @@
         </div>
     </div>
     
-    <hr class="border-b mt-20 mb-7 border-mycolor" >
+    <hr class="border-b my-12 shadow-inner  border-mycolor">
     
     <!-- ******************skill section*************** -->
 
     <div id="Skill">
         <div class="font-serif font-bold text-5xl text-center text-shadow-4xl text-mypink">My Skill</div>
         <div>
-            <div>html</div>
-            <div>css</div>
-            <div>tailwind</div>
-            <div>js</div>
-            <div>github</div>
-            <div>vs code</div>
+            <div class="flex justify-center items-center gap-24 mt-16"> 
+               <div class="img-class"><img class="rounded-full h-32 hover:rotate-180" src="html.png" alt="html">HTML 5</div>
+               <div class="img-class"><img class="rounded-full h-32 hover:rotate-180" src="css.png" alt="css">Css 3</div>
+               <div class="img-class"><img class="rounded-full h-32 hover:rotate-180" src="js.png" alt="js">JavaScript</div>
+            </div>
+            <div class="flex justify-center items-center gap-24 mt-10">
+               <div class="img-class"><img class="rounded-full h-32 hover:rotate-180" src="tailwind.png" alt="tailwind">Tailwind</div>
+               <div class="img-class"><img class="rounded-full h-32 hover:rotate-180" src="newgit.png" alt="github">GitHub</div>
+               <div class="img-class"><img class="rounded-full h-32 hover:rotate-180" src="vs2.png" alt="Vs code">Vs Code</div>
+            </div>  
         </div>
     </div>
+    <hr class="border-b mt-16 shadow-inner mb-10 border-mycolor"> 
+
+                    <!-- my project section  -->
+
+    <div id="Project">
+        <div class="font-serif font-bold text-5xl text-center text-shadow-4xl text-mypink">My Project's</div>
+    </div>                
 
     
 <script src="index.js" ></script>
