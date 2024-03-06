@@ -28,7 +28,9 @@
                 <a class="mynev" href="#About">About</a>
                 <a class="mynev" href="#Skill">Skill</a>
                 <a class="mynev" href="#Project">Project</a>
-                <a class="mynev" href="#">Contect</a>
+                <a class="mynev" href="#GitHub">GitHub</a>
+                <a class="mynev" href="#Contect">Contect</a>
+                
             </div>
                        <!-- icon of menu  -->
 
@@ -46,7 +48,7 @@
     <div id="Home" class=" flex flex-row " >
 
          <!-- full image  -->
-       <div id="image" >  <img  src="profile2.png" alt="My Image" class=" mt-20  ml-10  rounded-[150px] float-start h-[550px]  "> </div>
+       <div id="image" >  <img  src="profile2.png" alt="My Image" class=" mt-20 ml-10 rounded-[150px] float-start h-[550px]  "> </div>
 
         <!-- hii hellow  -->
         <div id="myname" class="  flex flex-col justify-center mt-20 ml-40 " >
@@ -55,32 +57,30 @@
             <div class="text-2xl font-serif text-gray-200 " >Frontend Developer |</div>
         </div>
     </div> 
-      
-    
 
     <!-- ******************about section*************** -->
 
-    <div id="About" class=" flex  flex-col"> 
-        <hr class="border-b my-12 shadow-inner  border-mycolor">
+    <div id="About" class="mb-20 flex  flex-col"> 
+        <!-- hr is use here  -->
+        <hr class="border-b my-14 shadow-inner  border-mycolor">
         <div class="font-serif font-bold text-5xl text-center text-shadow-4xl text-mypink">About Me</div>
         <div class=" flex flex-row justify-around " >
                       <!-- about my self -->
-            <div class="flex flex-col font-serif text-lg text-gray-200 gap-1 justify-center ml-12 " >
+            <div class="flex flex-col font-serif text-lg text-gray-200 gap-1 justify-center ml-20 " >
                 <p>Hello! I'm Mayank, a Bachelor of Computer</p>
                 <p>Applications (B.C.A) student with a passion for</p>
                 <p>web development. I am enthusiastic about leveraging</p>
                 <p>technology to create innovative solutions that make a positive impact.</p>
                       <!-- my image on about -->
             </div>
-            <div><img class="rounded-full mt-10  h-[400px] " src="dark.jpeg" alt=""></div>
+            <div><img class="rounded-full mt-10 h-[400px] " src="dark.jpeg" alt=""></div>
         </div>
     </div>
-    
-    <hr class="border-b my-12 shadow-inner  border-mycolor">
     
     <!-- ******************skill section*************** -->
 
     <div id="Skill">
+        <hr class="border-b my-14 shadow-inner  border-mycolor">
         <div class="font-serif font-bold text-5xl text-center text-shadow-4xl text-mypink">My Skill</div>
         <div>
             <div class="flex justify-center items-center gap-24 mt-16"> 
@@ -88,20 +88,43 @@
                <div class="img-class"><img class="rounded-full h-32 hover:rotate-180" src="css.png" alt="css">Css 3</div>
                <div class="img-class"><img class="rounded-full h-32 hover:rotate-180" src="js.png" alt="js">JavaScript</div>
             </div>
-            <div class="flex justify-center items-center gap-24 mt-10">
+            <div class="flex justify-center items-center gap-24 mb-32 mt-10">
                <div class="img-class"><img class="rounded-full h-32 hover:rotate-180" src="tailwind.png" alt="tailwind">Tailwind</div>
                <div class="img-class"><img class="rounded-full h-32 hover:rotate-180" src="newgit.png" alt="github">GitHub</div>
                <div class="img-class"><img class="rounded-full h-32 hover:rotate-180" src="vs2.png" alt="Vs code">Vs Code</div>
             </div>  
         </div>
     </div>
-    <hr class="border-b mt-16 shadow-inner mb-10 border-mycolor"> 
+    
 
                     <!-- my project section  -->
 
     <div id="Project">
+        <hr class="border-b my-16 shadow-inner border-mycolor"> 
         <div class="font-serif font-bold text-5xl text-center text-shadow-4xl text-mypink">My Project's</div>
-    </div>                
+        <div class="flex mt-20 items-center justify-evenly" >
+            <!-- project first  -->
+            <div id="project1" class="card-class" >
+                <div><p class="text-2xl py-2" >Amazon Clone</p></div>
+                <div><img class="h-52" src="amazon2ss.jpeg" alt="amazon"></div>
+                <div class="flex justify-evenly my-4 ">
+                    <a class="card-hover" href="https://m-k-singh1.github.io/amazon-clone/" target="_blank" >Live-link</a>
+                    <a class="card-hover" href="https://github.com/m-k-singh1/amazon-clone" target="_blank" >GitHub</a>
+                </div>
+            </div>
+                <!-- project second -->
+            <div id="project2" class="card-class" >
+                <div><p class="text-2xl py-2 " >Myntra Clone</p></div>
+                <div><img class="h-52" src="myntra2ss.jpeg" alt="myntra"></div>
+                <div class="flex justify-evenly my-4 " >
+                    <a class="card-hover" href="https://m-k-singh1.github.io/Myntra-clone-host/" target="_blank" >Live-link</a>
+                    <a class="card-hover" href="https://github.com/m-k-singh1/Myntra-clone-host" target="_blank" >GitHub</a>
+                </div>
+            </div>
+        </div>
+    </div>    
+    <hr class="border-b mt-24 mb-14 shadow-inner  border-mycolor">   
+    
 
     
 <script src="index.js" ></script>

@@ -15,11 +15,18 @@
     background-image: url('/Portfolio/image/dark2.png');
   }
 
-  .mynev { 
-    @apply hover:border-b-4 hover:text-gray-600 border-b-4 border-transparent hover:border-mypink hidden md:block
+  .mynev {
+    @apply border-b-4 border-transparent hover:border-mypink hover:text-gray-600 transition ease-in-out duration-100;
   }
+ 
+
 
   .img-class {
     @apply h-40 rounded-xl text-center font-bold bg-mycolor 
   }
-
+  .card-class {
+    @apply  text-gray-700 text-xl rounded-xl text-center font-bold bg-mycolor shadow-2xl 
+  }
+  .card-hover {
+    @apply border-2 border-mypink p-1 rounded-full hover:bg-mypink hover:text-gray-300
+  }
