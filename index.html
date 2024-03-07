@@ -17,21 +17,21 @@
 
                          <!-- name on navigation bar -->
 
-            <div id="navName" class=" sm:text-sm self-center ml-12 " > 
-            <span class="text-4xl font-bold font-serif text-mypink " >M</span><span class="font-serif font-bold text-xl">ayank</span>
-            </div>
+            <div><a href="#Home"><i class="sm:flex md:hidden lg:hidden xl:hidden pt-7 ml-6 fa-solid fa-house fa-lg" style="color: #d60a33;"></i></a> </div>
             
                           <!-- home and all -->
-
-            <div id="menu" class= " mr-7 flex gap-8 font-bold self-center "  >
+            
+            <div id="menu" class= "hidden md:flex xl:flex lg:flex mr-7 gap-8 font-bold self-center "  >
                 <a class="mynev" href="#Home">Home</a>
                 <a class="mynev" href="#About">About</a>
                 <a class="mynev" href="#Skill">Skill</a>
                 <a class="mynev" href="#Project">Project</a>
                 <a class="mynev" href="#GitHub">GitHub</a>
-                <a class="mynev" href="#Contact">Contact</a>
+                <a class="mynev" href="#Contact">Contact</a> 
                 
-            </div>          
+            </div>           
+                
+            
         </div>
     </nav>
 
@@ -40,13 +40,20 @@
     <div id="Home" class=" flex flex-row flex-wrap items-center justify-evenly pt-14 md:py-16 " >
 
         <!-- hii hellow  -->
-        <div id="myname">
-            <div class="font-serif font-bold text-5xl sm:mt-10 text-gray-100">Hi, I'm</div>
+        <!-- <div id="myname" class="sm:pt-36 sm:pl-20"> 
+            <div class="font-serif font-bold text-5xl  text-gray-100">Hi, I'm</div>
             <div class="font-serif font-bold text-6xl  text-mypink">Mayank singh</div>
             <div class="text-2xl font-serif text-gray-200 " >Frontend Developer |</div>
+        </div> -->
+        <div id="myname" class="pt-14 pl-10 flex flex-col justify-center items-start h-full">
+            <div class="font-serif font-bold text-5xl text-gray-100">Hi, I'm</div>
+            <div class="font-serif font-bold text-6xl text-mypink">Mayank Singh</div>
+            <div class="text-2xl font-serif text-gray-200">Frontend Developer</div>
         </div>
+        
+
          <!-- full image  -->
-        <div id="animation" class="sm:py-10 ml-8" >
+        <div id="animation" class="pl-10 ml-8" >
             <lottie-player src="https://lottie.host/805ee984-d74d-4e00-980f-923de7454362/KP7fQ70JW7.json" background="##fff" speed="1" style="width: 460px; height: 460px" loop  autoplay direction="1" mode="normal" ></lottie-player>
         </div> 
     </div> 
@@ -60,10 +67,10 @@
         <div class="flex flex-row flex-wrap items-center justify-around">
              <!-- my image on about -->       
            <div>
-            <img  src="profile2.png" alt="My Image" class="md:mt-14 rounded-full h-[420px] ">
+            <img  src="profile2.png" alt="My Image" class="mt-16 rounded-full h-[420px] ">
           </div> 
                       <!-- about my self -->
-            <div class="font-serif sm:pt-12 text-lg text-gray-200 gap-1" >
+            <div class="font-serif pl-10 mt-14 text-lg text-gray-200 gap-1" >
                 <p>Hello! I'm Mayank, a Bachelor of Computer</p>
                 <p>Applications (B.C.A) student with a passion for</p>
                 <p>web development. I am enthusiastic about leveraging</p>
@@ -76,18 +83,13 @@
 
     <div id="Skill">
         <hr class="border-b w-full my-14 shadow-inner  border-mycolor">
-        <div class="font-serif font-bold text-5xl text-center text-shadow-4xl text-mypink">My Skill</div>
-        <div>
-            <div class="flex justify-center items-center gap-24 mt-16"> 
-               <div class="img-class"><img class="rotate" src="html.png" alt="html">HTML 5</div>
-               <div class="img-class"><img class="rotate" src="css.png" alt="css">Css 3</div>
-               <div class="img-class"><img class="rotate" src="js.png" alt="js">JavaScript</div>
-            </div>
-            <div class="flex justify-center items-center gap-24 mb-32 mt-10">
-               <div class="img-class"><img class="rotate2" src="tailwind.png" alt="tailwind">Tailwind</div>
-               <div class="img-class"><img class="rotate2" src="newgit.png" alt="github">GitHub</div>
-               <div class="img-class"><img class="rounded-full h-32 active:rotate-180 hover:rotate-180" src="vs2.png" alt="Vs code">Vs Code</div>
-            </div>  
+        <div class="font-serif font-bold text-5xl text-center text-shadow-4xl my-14 text-mypink">My Skill</div>
+        <div class="flex flex-wrap justify-center pl-6 my-14 items-center">
+            <div class="img-class"><img class="rotate" src="html.png" alt="html">HTML 5</div>
+            <div class="img-class"><img class="rotate" src="css.png" alt="css">Css 3</div>
+            <div class="img-class"><img class="rotate" src="js.png" alt="js">JavaScript</div>
+            <div class="img-class"><img class="rotate2" src="tailwind.png" alt="tailwind">Tailwind</div>
+            <div class="img-class"><img class="rotate2" src="newgit.png" alt="github">GitHub</div>               <div class="img-class"><img class="rounded-full h-32 active:rotate-180 hover:rotate-180" src="vs2.png" alt="Vs code">Vs Code</div>   
         </div>
     </div>
     
@@ -97,7 +99,7 @@
     <div id="Project">
         <hr class="border-b w-full my-16 shadow-inner border-mycolor"> 
         <div class="font-serif font-bold text-5xl text-center text-shadow-4xl text-mypink">My Project's</div>
-        <div class="flex mt-16 flex-wrap items-center justify-evenly" >
+        <div class="flex mt-16 flex-wrap items-center justify-center" >
             <!-- project first  -->
             <div id="project1" class="card-class" >
        
@@ -134,7 +136,7 @@
         <hr class="border-b mt-10 mb-16 w-full shadow-inner  border-mycolor">  
         <div class="font-serif font-bold text-5xl text-center text-shadow-4xl text-mypink">GitHub  Graph</div>
         <div class="flex items-center justify-center  my-28">
-            <img class="rounded-2xl" src="githubss.png" alt="github">
+            <img class="rounded-2xl ml-7" src="githubss.png" alt="github">
            </div>    
     </div>
     <hr class="border-b w-full mt-24 mb-16 shadow-inner  border-mycolor">  

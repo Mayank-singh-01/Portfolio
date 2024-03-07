@@ -22,17 +22,17 @@
 
 
   .img-class {
-    @apply h-40 rounded-xl text-center font-bold bg-mycolor 
+    @apply h-40 rounded-xl text-center font-bold bg-mycolor text-mypink m-7
   }
   .card-class {
-    @apply  text-gray-700 text-xl rounded-xl text-center font-bold bg-mycolor mx-20 my-8 shadow-2xl
+    @apply  text-gray-700 text-xl rounded-xl text-center font-bold bg-mycolor mx-12 my-8 shadow-2xl
   }
   .card-hover {
     @apply border-2 border-mypink p-1 rounded-full hover:bg-mypink hover:text-gray-300
   }
   .rotate {
-    @apply rounded-full h-32 hover:rotate-45 active:rotate-45
+    @apply rounded-full h-32 hover:rotate-45 active:rotate-180
   }
   .rotate2 {
-    @apply rounded-full h-32 hover:rotate-90 active:rotate-90
+    @apply rounded-full h-32 hover:rotate-90 active:rotate-180
   }
