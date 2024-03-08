@@ -14,7 +14,7 @@
     @apply border-b-4 border-transparent hover:border-mypink hover:text-gray-500 transition ease-in-out duration-100;
   }
   .img-class {
-    @apply h-40 rounded-xl text-center font-bold bg-mycolor text-mypink m-7;
+    @apply h-40 rounded-xl text-center font-bold bg-mycolor text-mypink m-5;
   }
   .card-class {
     @apply  text-gray-700 text-xl rounded-xl text-center font-bold bg-mycolor mx-12 my-8 shadow-2xl;

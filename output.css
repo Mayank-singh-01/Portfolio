@@ -753,12 +753,12 @@ video {
   padding-left: 2.5rem;
 }
 
-.pl-5 {
-  padding-left: 1.25rem;
+.pl-3 {
+  padding-left: 0.75rem;
 }
 
-.pl-6 {
-  padding-left: 1.5rem;
+.pl-5 {
+  padding-left: 1.25rem;
 }
 
 .pt-10 {
@@ -888,7 +888,7 @@ video {
 }
 
 .img-class {
-  margin: 1.75rem;
+  margin: 1.25rem;
   height: 10rem;
   border-radius: 0.75rem;
   --tw-bg-opacity: 1;
