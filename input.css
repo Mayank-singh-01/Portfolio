@@ -10,25 +10,17 @@
     background-position: 0 0, 25px 25px;
     background-size: 50px 50px;
   }
-
-  .bg-image {
-    background-image: url('/Portfolio/image/dark2.png');
-  }
-
   .mynev {
     @apply border-b-4 border-transparent hover:border-mypink hover:text-gray-500 transition ease-in-out duration-100;
   }
- 
-
-
   .img-class {
-    @apply h-40 rounded-xl text-center font-bold bg-mycolor text-mypink m-7
+    @apply h-40 rounded-xl text-center font-bold bg-mycolor text-mypink m-7;
   }
   .card-class {
-    @apply  text-gray-700 text-xl rounded-xl text-center font-bold bg-mycolor mx-12 my-8 shadow-2xl
+    @apply  text-gray-700 text-xl rounded-xl text-center font-bold bg-mycolor mx-12 my-8 shadow-2xl;
   }
   .card-hover {
-    @apply border-2 border-mypink p-1 rounded-full hover:bg-mypink hover:text-gray-400
+    @apply border-2 border-mypink p-1 rounded-full hover:bg-mypink hover:text-gray-400;
   }
   .rotate {
     @apply rounded-full h-32 hover:rotate-180 transition-transform ease-in-out duration-500;

@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="output.css">
     <title>Portfolio</title>
 </head>
-<body class="bg-dots text-gray-100 ">
+<body class=" bg-dots text-gray-100 ">
 
                           <!-- navigation bar  ********************************* -->
 
@@ -32,18 +32,11 @@
     <div id="Home" class="shadow-2xl shadow-teal-500 flex flex-row flex-wrap items-center justify-evenly pt-14 md:py-16 " >
 
         <!-- hii hellow  -->
-        <!-- <div id="myname" class="sm:pt-36 sm:pl-20"> 
-            <div class="font-serif font-bold text-5xl  text-gray-100">Hi, I'm</div>
-            <div class="font-serif font-bold text-6xl  text-mypink">Mayank singh</div>
-            <div class="text-2xl font-serif text-gray-200 " >Frontend Developer |</div>
-        </div> -->
         <div id="myname" class="pt-14 pl-5 flex flex-col justify-center items-start h-full">
             <div class="font-serif font-bold text-4xl md:text-5xl lg:text-5xl xl:text-5xl text-gray-100">Hi, I'm</div>
             <div class="font-serif font-bold text-5xl md:text-6xl lg:text-6xl xl:text-6xl text-mypink">Mayank Singh</div>
             <div class="text-2xl font-serif text-gray-200">Frontend Developer |</div>
         </div>
-        
-
          <!-- full image  -->
         <div id="animation">
             <lottie-player src="https://lottie.host/805ee984-d74d-4e00-980f-923de7454362/KP7fQ70JW7.json" background="##fff" speed="1" style="width: 460px; height: 460px" loop  autoplay direction="1" mode="normal" ></lottie-player>
@@ -165,7 +158,23 @@
                 <a href="https://github.com/m-k-singh1" target="_blank"><i class="px-2 fa-brands fa-square-github fa-xl" style="color: #cf074d;"></i></a>
             </div>
         </div>
-    </div>
-     
+    </div>    
 </body>
+<script>
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth',
+            block: 'start',
+            inline: 'nearest',
+            duration: 1000 
+          });
+       });
+    });
+
+
+
+</script>
 </html>
