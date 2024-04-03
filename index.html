@@ -14,16 +14,25 @@
     <nav id="navigation"  >
         <div class=" h-14 w-full  bg-mycolor fixed z-50 flex justify-between shadow-sm " >
                          <!-- name on navigation bar -->
-            <div><a href="#Home"><i class="sm:flex md:hidden lg:hidden xl:hidden pt-7 ml-6 fa-solid fa-house fa-lg" style="color: #d60a33;"></i></a> </div>
+            <div>
+                <a class="" href="#">
+                    <i id="sunIcon" class="pt-7 ml-6 fa-solid fa-sun fa-lg" style="color: black"></i> 
+                    <!-- <i id="moonIcon" class="pt-7 ml-6 fa-solid fa-moon fa-lg" style="color: #d60a33"></i> -->
+                </a>
+                <a href="#Home">
+                   <i class="sm:flex md:hidden lg:hidden xl:hidden pt-7 ml-6 fa-solid fa-house fa-lg" style="color: #d60a33"></i>
+                </a> 
+            </div>
                           <!-- home and all -->   
-            <div id="menu" class= "hidden md:flex xl:flex lg:flex mr-7 gap-8 font-bold self-center">
+            <div id="menu" class= " hidden md:flex xl:flex lg:flex mr-7 gap-8 font-bold self-center">
                 <a class="mynev" href="#Home">Home</a>
                 <a class="mynev" href="#About">About</a>
                 <a class="mynev" href="#Skill">Skill</a>
                 <a class="mynev" href="#Project">Project</a>
                 <a class="mynev" href="#GitHub">GitHub</a>
-                <a class="mynev" href="#Contact">Contact</a>      
-            </div>           
+                <a class="mynev" href="#Contact">Contact</a>  
+            </div>
+
         </div>
     </nav>
 
@@ -183,5 +192,21 @@
           });
        });
     });
+
+    const sun = document.querySelector("#sunIcon");
+    const bgcolor = document.body.style;
+
+    sun.addEventListener('click', function () {
+
+        if (sun.style.color === "black") {
+             bgcolor.backgroundColor = "black";
+             sun.style.color = "white";
+        } else if ( sun.style.color == "white" ) {
+            bgcolor.backgroundColor = "rgb(47, 159, 148)";
+            sun.style.color = "black";
+        }
+    })
+
+
 </script>
 </html>
