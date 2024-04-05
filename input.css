@@ -17,7 +17,7 @@
     @apply h-40 rounded-xl text-center font-bold bg-mycolor text-mypink m-5;
   }
   .card-class {
-    @apply  text-gray-700 text-xl rounded-xl text-center font-bold bg-mycolor mx-12 my-8 shadow-2xl;
+    @apply  text-gray-700 text-xl rounded-xl text-center font-bold bg-mycolor my-8 shadow-2xl;
   }
   .card-hover {
     @apply border-2 border-mypink p-1 rounded-full hover:bg-mypink hover:text-gray-400;
